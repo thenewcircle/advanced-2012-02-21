@@ -1,0 +1,7 @@
+= Advanced Android
+
+Advanced Android class delivered by Ken Jones, Feb. 21-23, 2012.
+
+To clone:
+	git clone http://github.com/marakana/advanced-2012-02-21.git
+
