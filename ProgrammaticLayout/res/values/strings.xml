@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="activity_title">Programmatic Layout</string>
+    <string name="app_name">Programmatic Layout</string>
+    <string name="button_submit_text">Submit</string>
+    <string name="edit_content_hint">Enter your message</string>
+    <string name="toast_message_prefix">"You entered: "</string>
+
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, LaunchWebActivity!</string>
+    <string name="app_name">Launch Web</string>
+    <string name="activity_title">Implicit Intent</string>
+    <string name="edit_uri_hint">Enter a URL</string>
+    <string name="button_display_text">Display</string>
+
+</resources>

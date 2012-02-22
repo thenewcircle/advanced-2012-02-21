@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/activity_title"
+        android:textSize="30sp" android:gravity="center_horizontal"/>
+
+    <EditText
+        android:id="@+id/edit_uri"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/edit_uri_hint" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/button_display"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_display_text" />
+
+</LinearLayout>
