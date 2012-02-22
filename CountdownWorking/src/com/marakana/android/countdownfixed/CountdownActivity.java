@@ -42,7 +42,7 @@ public class CountdownActivity extends Activity implements OnClickListener {
         if (task != null) {
         	// There is a CountdownTask that was saved
         	task.attach(this);
-        	if (task.isActive()) {
+        	if (task.getStatus() != AsyncTask.Status.FINISHED) {
         		// And it is still active
         		startButton.setEnabled(false);
         	}
@@ -94,7 +94,6 @@ public class CountdownActivity extends Activity implements OnClickListener {
 	private static class CountdownTask extends AsyncTask<Void, Integer, String> {
 		
 		private CountdownActivity activity;
-		private boolean active = true;
 
 		public CountdownTask(CountdownActivity activity) {
 			super();
@@ -109,10 +108,6 @@ public class CountdownActivity extends Activity implements OnClickListener {
 			activity = null;
 		}
 
-		public boolean isActive() {
-			return active;
-		}
-
 		@Override
 		protected String doInBackground(Void... args) {
 			String status = "Thread completed";
@@ -125,7 +120,6 @@ public class CountdownActivity extends Activity implements OnClickListener {
 					break;
 				}
 			}
-			active = false;
 			return status;
 		}
 
