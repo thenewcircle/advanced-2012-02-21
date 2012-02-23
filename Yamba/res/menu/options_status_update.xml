@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_preference"
+        android:icon="@android:drawable/ic_menu_preferences"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/menu_preference_title"
+        android:titleCondensed="@string/menu_preference_title_cond"></item>
+
+    <item
+        android:id="@+id/menu_show_compose"
+        android:icon="@drawable/menu_status_update"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/menu_show_compose_title"
+        android:titleCondensed="@string/menu_show_compose_title_cond"></item>
+
+    <item
+        android:id="@+id/menu_show_timeline"
+        android:icon="@drawable/menu_timeline"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/menu_show_timeline_title"
+        android:titleCondensed="@string/menu_show_timeline_title_cond"></item>
+
+</menu>

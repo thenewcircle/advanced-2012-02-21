@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Yamba</string>
+    <string name="compose_fragment_title">Status Update</string>
+    <string name="button_update_text">Update Status</string>
+    <string name="edit_status_msg_hint">Please enter a 140 character status update</string>
+    <string name="post_status_success">Successfully posted status update</string>
+    <string name="post_status_fail">Failed to post status message</string>
+    <string name="pref_user_key">PREF_USER</string>
+    <string name="pref_user_title">User Name</string>
+    <string name="pref_password_key">PREF_PASSWORD</string>
+    <string name="pref_password_title">Password</string>
+    <string name="pref_site_url_key">PREF_SITE_URL</string>
+    <string name="pref_site_url_title">Site URL</string>
+    <string name="pref_site_url_summary">The web services URL for your microblogging site</string>
+    <string name="pref_site_url_default">http://yamba.marakana.com/api</string>
+    <string name="menu_preference_title">Settings</string>
+    <string name="menu_preference_title_cond">Settings</string>
+    <string name="prefs_header_title">Connection Settings</string>
+    <string name="menu_start_service_title">Refresh Timeline</string>
+    <string name="menu_start_service_title_cond">Refresh</string>
+    
+    <string name="menu_show_compose_title">New Status</string>
+    <string name="menu_show_compose_title_cond">New Status</string>
+    <string name="menu_show_timeline_title">Home Timeline</string>
+    <string name="menu_show_timeline_title_cond">Timeline</string>
+
+</resources>

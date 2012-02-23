@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	<fragment android:layout_height="wrap_content"
+		android:layout_width="wrap_content" android:id="@+id/countdown_fragment1"
+		android:name="com.marakana.android.countdownfragment.CountdownFragment"
+		android:layout_alignParentTop="true" android:layout_alignParentLeft="true" >
+	    <!-- Preview: layout=@layout/countdown_fragment -->
+	</fragment>
+	<fragment android:layout_height="wrap_content"
+		android:layout_width="wrap_content" android:id="@+id/countdown_fragment2"
+		android:name="com.marakana.android.countdownfragment.CountdownFragment"
+		android:layout_alignParentTop="true" android:layout_alignParentRight="true" >
+	    <!-- Preview: layout=@layout/countdown_fragment -->
+	</fragment>
+	<fragment android:layout_height="wrap_content"
+		android:layout_width="wrap_content" android:id="@+id/countdown_fragment3"
+		android:name="com.marakana.android.countdownfragment.CountdownFragment"
+		android:layout_alignParentBottom="true" android:layout_alignParentLeft="true"
+	>
+	    <!-- Preview: layout=@layout/countdown_fragment -->
+	</fragment>
+	<fragment android:layout_height="wrap_content"
+		android:layout_width="wrap_content" android:id="@+id/countdown_fragment4"
+		android:name="com.marakana.android.countdownfragment.CountdownFragment"
+		android:layout_alignParentBottom="true" android:layout_alignParentRight="true"
+	>
+	    <!-- Preview: layout=@layout/countdown_fragment -->
+	</fragment>
+
+</RelativeLayout>
