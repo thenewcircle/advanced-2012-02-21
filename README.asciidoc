@@ -8,3 +8,9 @@ To clone:
 == Useful Links
 
 SQLite Optimization FAQ: http://web.utk.edu/~jplyon/sqlite/SQLite_optimization_FAQ.html
+
+Romain Guy's blog post, "Avoiding memory leaks": http://android-developers.blogspot.com/2009/01/avoiding-memory-leaks.html
+
+Patrick Dubroy's blog post, "Memory Analysis for Android Applications": http://android-developers.blogspot.com/2011/03/memory-analysis-for-android.html
+
+Google I/O session, "Memory management for Android Apps": http://www.youtube.com/watch?v=_CruQY55HOk
